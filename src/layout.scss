@@ -9,18 +9,18 @@
     display: flex;
     flex-direction: column;
     @include lg {
-        background-color: aqua;
+        // background-color: aqua;
         max-width: 1280px;
     }
     @include md {
-        background-color: green;
+        // background-color: green;
         max-width: 786px;
     }
     @include sm {
-        background-color: red;
+        // background-color: red;
         max-width: 640px;
     }
     .content {
-        flex: 1;
+        height: calc(100vh - 100px);
     }
 }
