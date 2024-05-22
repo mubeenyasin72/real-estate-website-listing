@@ -1,5 +1,5 @@
 @import "../../responsive.scss";
-
+@import "../../styles/colors";
 .homePage {
     display: flex;
     height: 100%;
@@ -57,7 +57,7 @@
 
     .imageContainer {
         flex: 2;
-        background-color: #fcf5f3;
+        background-color: $homepage-image-container-bg-color;
         position: relative;
         display: flex;
         align-items: center;

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {Link} from "react-router-dom"
+
 import "./navbar.scss";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -32,7 +34,9 @@ const Navbar = () => {
           <a href="/">Contact</a>
           <a href="/">Agents</a>
           <a href="/">Sign in</a>
-          <a href="/">Sing up</a>
+          <a href="/" className="register">
+            Sing up
+          </a>
         </div>
       </div>
     </nav>

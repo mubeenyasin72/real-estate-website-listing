@@ -1,0 +1,38 @@
+$base-color: rgba(29, 211, 232, 0.777);
+
+$primary-color: rgba(29, 211, 232, 0.777);
+$navbar-BG-color: #fcf5f3; //#fcf5f3
+$homepage-image-container-bg-color: #fcf5f3; //#fcf5f3
+$small-screen-navbar-bg-color: black;
+$text-white-color: white;
+$text-black-color: black;
+$border-color: #e0e0e0;
+$white-smoke-color: whitesmoke;
+
+//
+$green-color: #004d40; // Dark Green
+$secondary-color: #f5f5dc; // Warm Beige
+$accent-color-gold: #d4af37; // Gold
+$accent-color-red: #b22222; // Brick Red
+$accent-color-blue: #87ceeb; // Sky Blue
+$light-gray: #d3d3d3; // Light Gray
+
+//
+// Define lighter shades using the lighten function
+
+// Define 15 lighter shades
+$light-shade-1: lighten($base-color, 5%);
+$light-shade-2: lighten($base-color, 10%);
+$light-shade-3: lighten($base-color, 15%);
+$light-shade-4: lighten($base-color, 20%);
+$light-shade-5: lighten($base-color, 25%);
+$light-shade-6: lighten($base-color, 30%);
+$light-shade-7: lighten($base-color, 35%);
+$light-shade-8: lighten($base-color, 40%);
+$light-shade-9: lighten($base-color, 45%);
+$light-shade-10: lighten($base-color, 50%);
+$light-shade-11: lighten($base-color, 55%);
+$light-shade-12: lighten($base-color, 60%);
+$light-shade-13: lighten($base-color, 65%);
+$light-shade-14: lighten($base-color, 70%);
+$light-shade-15: lighten($base-color, 75%);
