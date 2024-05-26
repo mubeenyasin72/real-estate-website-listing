@@ -6,7 +6,7 @@ import LoginPage from "./routes/login/LoginPage";
 import RegisterPage from "./routes/register/RegisterPage";
 import ProfilePage from "./routes/profilePage/ProfilePage";
 import SinglePage from "./routes/singlePage/SinglePage";
-
+import NewPostPage from "./routes/newPostPage/NewPostPage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -32,6 +32,10 @@ function App() {
         {
           path: "/profile",
           element: <ProfilePage />,
+        },
+        {
+          path: "/newPost",
+          element: <NewPostPage />,
         },
         {
           path: "/:id",
